@@ -62,7 +62,7 @@ nav li{
 }
 
 
-a{
+nav a{
     vertical-align: baseline;
     text-decoration: none;
     color: black;
@@ -394,7 +394,7 @@ footer{
         font-size: 1rem;
 }
 
-/* partie principale / corps de la page */
+/* partie principale / corps de la page AWS*/
 #container-body-aws button {
     width:20%;
     height:45px;
@@ -672,4 +672,63 @@ h1{
     margin: 5%;
     padding:4%;
     font-size: 1rem;
+}
+
+/*CSS pour page news*/
+#bandeau-news{
+    background-color: #336699;
+    display: flex;
+    flex-direction: row;
+    padding:5%;
+}
+
+#content-bandeau-news, #content-bandeau-news h1{
+    display: flex;
+    flex-direction: column;
+    padding:2%;
+    margin:0% 2% 0% 2%;
+    color:white;
+    font-size:2rem;
+}
+
+#video-news{
+    width:80%;
+}
+
+#body-news-content{
+    width:100%;
+}
+#bloc-vignette-news{
+    padding:5% 10% 5% 10%;
+    overflow: auto;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a .vignette-news{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    box-shadow:1px 1px 1px 1px #CCBAC2;
+    margin:5% 1% 5% 1%;
+}
+
+.vignette-news:hover{
+    box-shadow:3px 3px 10px 2px #CCBAC2;
+}
+.vignette-news p{
+    margin:10%;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-size:90%;
+
 }
